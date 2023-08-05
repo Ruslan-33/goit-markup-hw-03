@@ -1,0 +1,206 @@
+:root {
+  --iris: #4d5ae5;
+  --white: #fff;
+  --navyblue: #2e2f42;
+  --cloud: #f4f4fd;
+  --slate: #434455;
+  --ocean: #404bbf;
+}
+/* BASE STYLES */
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: var(--slate);
+  background-color: var(--white);
+  font-weight: 400;
+}
+
+.link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--slate);
+}
+
+/* LOGO */
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.header-logo-dark {
+  color: var(--navyblue);
+}
+
+.header-logo-white {
+  color: var(--cloud);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+.pages-list,
+.list {
+  list-style-type: none;
+  font-style: normal;
+}
+
+.pages-list-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.pages-list-item:hover,
+.pages-list-item:focus {
+  color: var(--ocean);
+}
+
+.pages-list-item-link:hover,
+.pages-list-item-link:focus {
+  color: var(--ocean);
+}
+
+/*  */
+
+.pages-list-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.header-address-list-item:hover,
+.header-address-list-item:focus {
+  color: var(--ocean);
+}
+
+.section-hero {
+  background-color: var(--navyblue);
+}
+
+.section-hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.section-hero-button {
+  background-color: var(--iris);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.section-hero-button:hover,
+.section-hero-button:focus {
+  background-color: var(--ocean);
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.section-principles-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.section-principles-title-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.section-what-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+.section-team {
+  background-color: var(--cloud);
+}
+
+.section-team-card {
+  background-color: var(--white);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--navyblue, #2e2f42);
+}
+
+.footer-text {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
+
+/* FILTERS STYLES */
+
+.filter-list {
+  list-style-type: none;
+}
+
+.filters-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+/* ROW STYLES */
+
+.cadr-text {
+  color: --slate;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
