@@ -397,10 +397,10 @@ footer .header-logo {
 }
 
 .card-content {
+  border: 1px solid #e7e9fc;
   padding: 32px 16px;
   background: var(--white);
   border-top: none;
-  border: 1px solid #e7e9fc;
 }
 
 .cadr-text {
