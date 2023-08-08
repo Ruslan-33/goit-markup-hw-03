@@ -398,9 +398,9 @@ footer .header-logo {
 
 .card-content {
   padding: 32px 16px;
-  border: 1px solid --cornflower;
   background: var(--white);
   border-top: none;
+  border: 1px solid #e7e9fc;
 }
 
 .cadr-text {
