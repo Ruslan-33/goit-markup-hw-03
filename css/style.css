@@ -13,6 +13,7 @@
   --cloud: #f4f4fd;
   --slate: #434455;
   --ocean: #404bbf;
+  --cornflower: #e7e9fc;
 }
 /* BASE STYLES */
 body {
@@ -66,7 +67,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 button {
@@ -294,7 +295,7 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 0px 0px 4px 4px;
-  background: var(--white, #fff);
+  background: var(--white);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -307,7 +308,7 @@ button {
 
 /* FOOTER */
 .footer {
-  background-color: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue);
 }
 
 .footer-text {
@@ -320,6 +321,10 @@ button {
 
 /* FILTERS STYLES */
 
+.filters {
+  padding: 96px 120px;
+}
+
 .portfolio-container {
   padding: 76px 120px;
 }
@@ -328,7 +333,7 @@ button {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 24;
+  gap: 24px;
   margin: 0 auto 72px;
   justify-content: center;
 }
@@ -348,8 +353,8 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
+  border: 1px solid var(--cornflower);
+  background: var(--cloud);
 }
 
 .filters-button:hover,
@@ -360,7 +365,7 @@ button {
   padding: 12px 24px;
   align-items: flex-start;
   border-radius: 4px;
-  background: var(--ocean, #404bbf);
+  background: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
@@ -370,19 +375,19 @@ button {
 .project-card {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 48px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .project-card-list {
   flex-basis: calc((100% - 24px * 2) / 3);
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
+  background: var(--white);
 }
 
 .card-content {
-  margin: 32px 0;
-  padding-left: 16px;
+  padding: 32px 0 32px 16px;
+  border: 1px solid var(--cornflower);
+  background: var(--white);
 }
 
 .cadr-text {
